@@ -1,0 +1,12 @@
+[package]
+name = "port-scan"
+version = "0.1.0"
+authors = ["Austin Keeley <austin.keeley@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0.0-beta.2"
+crossbeam = "0.6"
+threadpool = "1.8.1"
